@@ -1,0 +1,7 @@
+for _, v in ipairs(workspace.ToFind:GetChildren()) do
+    if v:IsA("BasePart") then
+        game.Players.LocalPlayer.Character:MoveTo(v.Position)
+        wait(1)
+    end
+end
+--Скрипт чтобы телепортироваться к всем губби
